@@ -1,0 +1,49 @@
+div#conteiner{
+	width: 900px;
+	height: auto;
+}
+
+div#header{
+	width: 900px;
+	height: 200px;
+	/*background-image: url('../Img/massagem02.jpg');*/
+    background-size: 900px 200px;
+    background-repeat: no-repeat;
+	background-align: center;
+	background-color: red;
+    background-position: center; 
+    /*background-attachment: fixed;*/
+	
+}
+
+div#section{
+	background-color: blue;
+	width: 700px;
+	height: 600px;
+	display: block;
+	float: left;
+}
+
+div#section a{
+    color: white;
+    text-align: center;
+    margin-left: 250px;
+    
+}
+
+
+div#lateral{
+	background-color: yellow;
+	width: 200px;
+	height: 600px;
+	display: block;
+	float: right;
+}
+
+div#footer{
+	width: 900px;
+	height: 100px;
+	background-color: green;
+	display: block;
+	clear: both;
+}
